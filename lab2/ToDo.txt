@@ -1,0 +1,4 @@
+klient do workerów wysy³a 2 ci¹gi liczb <niedu¿y zakres>, wysy³aæ z ró¿nym opóŸnieniem
+
+Workery sortuj¹ te ci¹gi, potem powstaje 3-ci worker który scala posortowane ci¹gi i zwraca posortowany ciag do farmera
+
