@@ -51,6 +51,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CallbackContract\CallbackContract.csproj">
+      <Project>{0006FC25-B049-4431-A9B0-7C81E8F54784}</Project>
+      <Name>CallbackContract</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WcfServiceLibrary1\WcfServiceLibrary1.csproj">
       <Project>{8AE0A6D7-59A2-4196-8CD4-E877E1D677BB}</Project>
       <Name>WcfServiceLibrary1</Name>
