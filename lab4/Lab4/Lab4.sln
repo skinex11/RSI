@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klient", "Klient\Klient.csproj", "{2C9F845B-DC13-4BDE-A750-11E5EAFAB109}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallbackContract", "CallbackContract\CallbackContract.csproj", "{0006FC25-B049-4431-A9B0-7C81E8F54784}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2C9F845B-DC13-4BDE-A750-11E5EAFAB109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C9F845B-DC13-4BDE-A750-11E5EAFAB109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C9F845B-DC13-4BDE-A750-11E5EAFAB109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0006FC25-B049-4431-A9B0-7C81E8F54784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0006FC25-B049-4431-A9B0-7C81E8F54784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0006FC25-B049-4431-A9B0-7C81E8F54784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0006FC25-B049-4431-A9B0-7C81E8F54784}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
