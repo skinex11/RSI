@@ -1,11 +1,9 @@
 using Klient.ServiceReference1;
+using Klient.ServiceReference2;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.ServiceModel;
 using System.Threading;
-using System.Threading.Tasks;
-using WcfServiceLibrary1;
+
 
 namespace Klient
 {
@@ -37,7 +35,11 @@ namespace Klient
 
             client1.Close();
 
+            Console.WriteLine("\nKLIENT2:");
+            
+            
 
+                       
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }

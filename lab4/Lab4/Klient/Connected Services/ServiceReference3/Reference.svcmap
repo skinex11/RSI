@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0d7d8e06-8961-4810-8a2d-5cba404b4aa5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="be6464b6-b6c3-486a-bb16-c75e2c6964ec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,11 +22,11 @@
     <MetadataSource Address="http://localhost:10000/mojhost2" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="mojCallbackKalkulator.wsdl" MetadataType="Wsdl" ID="a65a66fd-8f43-4d39-ae9e-018b52e690a7" SourceId="1" SourceUrl="http://localhost:10000/mojhost2?wsdl" />
-    <MetadataFile FileName="mojhost2.xsd" MetadataType="Schema" ID="f29eced5-d9da-4d3a-8e7c-99e2e317479f" SourceId="1" SourceUrl="http://localhost:10000/mojhost2?xsd=xsd0" />
-    <MetadataFile FileName="mojhost21.xsd" MetadataType="Schema" ID="5822373f-c1d5-4d07-ab7e-5fabc099a42f" SourceId="1" SourceUrl="http://localhost:10000/mojhost2?xsd=xsd1" />
-    <MetadataFile FileName="mojhost2.disco" MetadataType="Disco" ID="bdc8a685-61ef-409b-afd4-4f6e2d9f5e6d" SourceId="1" SourceUrl="http://localhost:10000/mojhost2?disco" />
-    <MetadataFile FileName="mojhost22.xsd" MetadataType="Schema" ID="b24afa33-b793-4d31-9d77-049d0ec7d4d3" SourceId="1" SourceUrl="http://localhost:10000/mojhost2?xsd=xsd2" />
+    <MetadataFile FileName="mojCallbackKalkulator.wsdl" MetadataType="Wsdl" ID="c9fa8039-ce1c-4b09-ad14-ed76376fb7e6" SourceId="1" SourceUrl="http://localhost:10000/mojhost2?wsdl" />
+    <MetadataFile FileName="mojhost2.xsd" MetadataType="Schema" ID="4957d9e9-7633-4224-bd66-fe1c449f8093" SourceId="1" SourceUrl="http://localhost:10000/mojhost2?xsd=xsd0" />
+    <MetadataFile FileName="mojhost21.xsd" MetadataType="Schema" ID="ceaca5d8-cecb-4d27-abd4-6cca3fd84ce8" SourceId="1" SourceUrl="http://localhost:10000/mojhost2?xsd=xsd1" />
+    <MetadataFile FileName="mojhost2.disco" MetadataType="Disco" ID="d0da3fe0-6c7e-4f2e-b529-040bebb0c6e6" SourceId="1" SourceUrl="http://localhost:10000/mojhost2?disco" />
+    <MetadataFile FileName="mojhost22.xsd" MetadataType="Schema" ID="eedce305-99c6-4704-93e0-431b0ad8fdba" SourceId="1" SourceUrl="http://localhost:10000/mojhost2?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
