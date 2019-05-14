@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="58d82753-5a95-4eb8-acaf-8ab3d098f1ee" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:10000/mojhost" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="mojhost.xsd" MetadataType="Schema" ID="12845453-ad6b-42b7-b83e-769f9dcbfc31" SourceId="1" SourceUrl="http://localhost:10000/mojhost?xsd=xsd2" />
+    <MetadataFile FileName="MojSerwis.wsdl" MetadataType="Wsdl" ID="2c287148-e377-44c8-ae02-c38e33230fd9" SourceId="1" SourceUrl="http://localhost:10000/mojhost?wsdl" />
+    <MetadataFile FileName="mojhost1.xsd" MetadataType="Schema" ID="40dfaa39-25c9-4bf3-a339-fd717cf2f118" SourceId="1" SourceUrl="http://localhost:10000/mojhost?xsd=xsd1" />
+    <MetadataFile FileName="mojhost2.xsd" MetadataType="Schema" ID="c726296e-6dd0-4443-85bf-db033ae1a159" SourceId="1" SourceUrl="http://localhost:10000/mojhost?xsd=xsd0" />
+    <MetadataFile FileName="mojhost.disco" MetadataType="Disco" ID="f0e430f7-60f8-41f2-94e2-011b56c80915" SourceId="1" SourceUrl="http://localhost:10000/mojhost?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
