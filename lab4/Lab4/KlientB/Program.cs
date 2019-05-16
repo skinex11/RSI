@@ -1,5 +1,7 @@
+using KlientB.ServiceReference1;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,12 +12,47 @@ namespace KlientB
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            StrumienClient client2 = new StrumienClient();
+            string filePath = Path.Combine(System.Environment.CurrentDirectory,
+                "klient.jpg");
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            Console.WriteLine("Wywoluje getStream()");
+            System.IO.Stream stream2 = client2.GetStream("image.jpg");
+            ZapiszPlik(stream2, filePath);
+
+            client2.Close();
+            Console.WriteLine();
+            Console.WriteLine("Nacisnij <ENTER> aby zakonczyc.");
+            Console.ReadLine();
+        }
+
+        private static void ZapiszPlik(Stream instream, string filePath)
+        {
+            const int bufferLength = 8192; //długość bufora 8KB
+            int bytecount = 0; //licznik
+            int counter = 0; //licznik pomocniczy
+
+            byte[] buffer = new byte[bufferLength];
+            Console.WriteLine("==> Zapisuje plik {0}", filePath);
+            FileStream outstream = File.Open(filePath,
+                FileMode.Create,
+                FileAccess.Write);
+
+            //zapisywanie danych porcjami
+            while((counter = instream.Read(buffer, 0, bufferLength)) > 0)
+            {
+                outstream.Write(buffer, 0, counter);
+                Console.Write(".{0}", counter); //wypisywanie info po kazdej czesci
+                bytecount += counter;
+            }
+            Console.WriteLine();
+            Console.WriteLine("Zapisano {0} bajtow", bytecount);
+
+            outstream.Close();
+            instream.Close();
+            Console.WriteLine();
+            Console.WriteLine("--> Plik {0} zapisany", filePath);
+
         }
     }
 }
