@@ -13,7 +13,7 @@ namespace HostB
     {
         static void Main(string[] args)
         {
-            Uri baseAdress = new Uri("http://localhost:10000/");
+            Uri baseAdress = new Uri("http://localhost:10000/mojstrumien");
             ServiceHost mojHost = new ServiceHost(typeof(MojStrumien),
                 baseAdress);
             BasicHttpBinding b = new BasicHttpBinding();

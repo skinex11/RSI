@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0ecb4336-f473-4677-9593-a65b8d6cb83b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:10000/mojstrumien" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MojStrumien.wsdl" MetadataType="Wsdl" ID="5affd216-7ebe-4aff-93cd-c177cc56173d" SourceId="1" SourceUrl="http://localhost:10000/mojstrumien?wsdl" />
+    <MetadataFile FileName="mojstrumien.xsd" MetadataType="Schema" ID="f57bc505-be66-4eb5-a2d1-6f09577f071a" SourceId="1" SourceUrl="http://localhost:10000/mojstrumien?xsd=xsd1" />
+    <MetadataFile FileName="mojstrumien1.xsd" MetadataType="Schema" ID="40bfbf23-bec5-4eb3-8bd8-f4c5738388c2" SourceId="1" SourceUrl="http://localhost:10000/mojstrumien?xsd=xsd0" />
+    <MetadataFile FileName="mojstrumien2.xsd" MetadataType="Schema" ID="bdfbde9d-c9e4-4bc0-9b05-799459bb1b64" SourceId="1" SourceUrl="http://localhost:10000/mojstrumien?xsd=xsd3" />
+    <MetadataFile FileName="mojstrumien.disco" MetadataType="Disco" ID="523ad47f-cab7-44a9-a799-ff09eee8b84d" SourceId="1" SourceUrl="http://localhost:10000/mojstrumien?disco" />
+    <MetadataFile FileName="mojstrumien3.xsd" MetadataType="Schema" ID="ede7ced5-f437-47c3-85b6-a34e34461bb7" SourceId="1" SourceUrl="http://localhost:10000/mojstrumien?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
