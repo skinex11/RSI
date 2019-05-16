@@ -36,12 +36,39 @@ namespace Klient
             client1.Close();
 
             Console.WriteLine("\nKLIENT2:");
-            
-            
 
-                       
+            CallbackHandler mojCallbackHandler = new CallbackHandler();
+            InstanceContext instanceContext = new InstanceContext(mojCallbackHandler);
+            CallbackKalkulatorClient client2 = new CallbackKalkulatorClient(instanceContext);
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            double value1 = 10;
+            Console.WriteLine("...wywoluje Silnia({0})...", value1);
+            client2.Silnia(value1);
+            value1 = 20;
+            Console.WriteLine("...wywoluje Silnia({0})...", value1);
+            client2.Silnia(value1);
+
+            int value2 = 2;
+            Console.WriteLine("...wywoluje obliczenia cosia...");
+            client2.ObliczCos(value2);
+            Console.WriteLine("...czekam chwile na odbior wynikow");
+            Thread.Sleep(5000);
+
+            client2.Close();
+            Console.WriteLine("KONIEC KLIENT2");
+        }
+    }
+
+    public class CallbackHandler : ICallbackKalkulatorCallback
+    {
+        public void ZwrotObliczCos(string result)
+        {
+            Console.WriteLine("Obliczenia: {0}", result);
+        }
+
+        public void ZwrotSilnia(double result)
+        {
+            Console.WriteLine("Silnia = {0}", result);
         }
     }
 }
